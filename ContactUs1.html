@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact Us</title>
+    <link rel="stylesheet" type="text/css" href="contact.css">
+    <link rel="stylesheet"  href="sass.css">
+  </head>
+  <body class="b1">
+    <form action="https://formspree.io/f/xgebnjln" method="POST">
+    <header>
+      
+      <center><h1>Contact Us</h1></center>
+    </header>
+    <main>
+        <form onsubmit="sendEmail();reset(); return false;">
+      <form id="contact-form" action="#" method="POST">
+        <label for="first-name">First Name *</label>
+        <input type="text" id="first-name" name="first-name" required minlength="5">
+
+        <label for="last-name">Last Name *</label>
+        <input type="text" id="last-name" name="last-name" required minlength="5">
+
+        <label for="email">Email *</label>
+        <input type="email" id="email" name="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+
+        <label for="date">Date *</label>
+        <center><input type="date" id="date" name="date" required pattern="\d{2}\/\d{2}\/\d{2}"></center> 
+
+        <label for="phone">Phone *(10 digits)</label>
+        <input type="tel" id="phone" name="phone" required pattern="\d{10}">
+
+        <label for="message">Message *</label>
+        <textarea id="message" name="message" required minlength="50"></textarea>
+
+        <center><button type="submit" id="submit">Submit</button></center>
+      </form>
+    </main>
+    <script src="ContactUs1.js"></script>
+</form>
+
+  </body>
+</html>

@@ -1,0 +1,239 @@
+/* Responsive design for Contact Us form */
+form {
+    max-width: 600px;
+    margin: 0%;
+    margin-left: 1%;
+    margin-right: 3%;
+  }
+  /* styling body*/
+  body {
+   
+  width: 50%;
+  border-radius: 12px;
+  background-color: lightcyan;
+  
+
+ }
+ main{
+  margin-left: 20%;
+  margin-bottom: 5;
+  
+ }
+ 
+  /*styling lables */
+  label {
+    display: block;
+    margin-bottom: 3px;
+    font-weight: bold;
+    margin-left: 10%;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    color: maroon;
+   font-size: larger;
+  
+  }
+  /* styling  input fields */
+  input,
+  textarea {
+    display: block;
+    width: 95%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: 9.5%;
+    margin-bottom: 20px;
+  transition: transform 0.5s ease-out;
+  
+    font-weight: bold;
+  }
+  
+  input:focus,
+  textarea:focus {
+    border-color: #4d90fe;
+    box-shadow: 0 0 5px #4d90fe;
+  }
+  
+  
+  /* Add animation to header */
+  header {
+  
+    transition: transform 0.5s ease-out;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    color: crimson;
+
+  }
+  
+  header:hover {
+    transform: scale(0.5);
+  }
+  input[type = "date"]{
+  border-radius: 14px;
+  font-size: 12px;
+    width: 150px;
+    text-align: center;
+    font-weight: bold;
+  }
+ 
+   /* styling submit button */
+   button {
+    width: 150px;
+    font-size: 16px;
+      background-color: lightcoral;
+      color: #121111;
+      padding: 30px 30px;
+      border: 10px ;
+      border-radius: 40px;
+      cursor: pointer;
+      transition: 0.05s;
+      letter-spacing: 0.5px;
+      padding: 0.6rem 1.2rem;
+      font-weight: bold;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.2) inset;
+    
+      transition: transform 0.5s ease-in-out;
+    
+    }
+    
+    button:hover {
+      background-color: #ba5f7c;
+    }
+    
+    button:active {
+      background-color: #9ca1a8;
+      
+      outline: none;
+    }
+    
+    button[type="submit"]:hover {
+      background-color: #9c111a;
+      transform: scale(0.6);
+    }
+    
+  @keyframes example {
+    0% {
+      background-color: rosybrown;
+    }
+    50% {
+        background-color: #357ae8;
+    }
+    100% {
+        background-color: #4d90fe;
+    }
+    
+  0%   { left:0px; top:0px;}
+  25%  { left:200px; top:0px;}
+  50%  { left:0px; top:0px;}
+ 
+}
+
+  ul{
+    list-style-type: square ;
+    font-size: 18px;
+
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:70px ;
+    color: rgb(239, 88, 88);
+    text-shadow: 4px 4px black;
+    transition: transform 1s ease-in;
+}
+ol{
+    width: 1050px;
+    height: 150px;
+    padding: 20px;
+    border: 5px solid;
+list-style-type: style type num;
+}
+h2{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: crimson;
+}
+h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: indianred;
+    font-size: xx-large;
+}
+h4{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-style: italic;
+}
+p1{
+    font-size: 18px;
+   
+}
+
+
+th{
+    width: 40%;
+    font-size: x-large;
+}
+footer{
+    width: 300px;
+    height: 20px;
+    padding: 20px;
+    border: 5px solid burlywood;
+
+}
+p2{
+    
+    font-style: oblique;
+    font-size: x-large;
+
+}
+h5{
+    font-size: 20px;
+    color: brown;
+    font-style: inherit;
+    font-weight: 300;
+}
+p3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+
+}
+p4{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+}
+
+
+
+
+
+
+nav {
+
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+  padding: 25px;  
+  font-size: 20px;
+  padding: 1%;
+  padding-left: 0%;
+  padding-right: 0%;
+}
+  
+button::after {
+  content: attr(name);
+  text-transform: uppercase;
+}
+
+.gallery{
+  margin:10px 50px;
+}
+ .gallery img{
+  width: 230px;
+  padding: 5px;
+  transition:1s;
+  filter:grayscale(100%);
+   }
+
+   .gallery img:hover{
+    filter:grayscale(0);
+    transform: scale(1.1);
+   }
